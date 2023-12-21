@@ -1,17 +1,35 @@
+@import url("./font.css");
+@import url("./colors.css");
+@import url("./text.css");
+
 .bs {
-  padding: 1.2rem;
-  margin: 1.2rem;
+  padding: 3rem;
 }
 
 main {
+  font-family: "poppins-m", "Segoe UI", "Tahoma", "Geneva", "Verdana",
+    "sans-serif";
+  background-color: var(--c04);
+  color: var(--c02);
+  border-radius: 1rem;
+}
+
+.section-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+section {
+  background-color: var(--c05);
 }
 
 li {
   display: block;
+  color: var(--c12);
 }
 
 .profile-img {
@@ -22,21 +40,4 @@ li {
   border-radius: 50%;
   height: 15rem;
   width: 15rem;
-}
-
-h1 {
-  font-size: 3rem;
-  margin: 0px;
-}
-
-h2 {
-  font-size: 2.2rem;
-}
-
-h3 {
-  font-size: 1.8rem;
-}
-
-h4 {
-  font-size: 1.5rem;
 }
